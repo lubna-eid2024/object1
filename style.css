@@ -1,0 +1,164 @@
+.navber{
+    display: flex;
+    position: fixed;
+    padding: 10px;
+}
+  
+/* style link */
+.link{
+    float: left;
+    text-align: start;
+    text-decoration: none;
+    margin-left: 10px ;
+    margin-top: 20px;
+}
+.link a{
+   margin-left: 10px;
+   margin-bottom: 10px; 
+}
+.link a:hover{border-bottom: #666; 
+color: bisque;
+background-color: aquamarine;
+font-size: larger;}
+/* style section 1 */
+.nav{
+    word-spacing: 2px;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.nav a{
+    margin-left: 20px;
+}
+.nav a:hover{border-bottom: #666; 
+    color: bisque;
+    background-color: aquamarine;
+    font-size: larger;
+}
+/* style logo */
+.logo{
+    float: left;
+    background-color: black;
+    margin-left: 210px;
+    margin-top: 20px;
+    box-shadow: 0px 20px 5px 2px #666;
+    
+}
+/* style section 2 */
+.nav2{
+    word-spacing: 2px;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 210px;
+margin-left: 20px;
+margin-top: 20px;
+
+}
+.nav2 a{
+    margin-left: 20px;
+}
+.nav2 a:hover{border-bottom: #666; 
+    color: bisque;
+    background-color: aquamarine;
+font-size: larger;}
+/* style postion */
+.banner{
+    position: relative;
+    background-image: url(imge/hero-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+        
+}
+ /* style button */
+.contact-number{
+    float: inline-end;
+    margin-top: 11px;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color: yellow;
+    color: blue;
+    margin-bottom: 20px;
+
+   
+}
+
+/* style div postion */
+
+.banner-content{
+    background-color: antiquewhite;
+    padding: 30px;
+    max-width: 400px;
+    
+    transition: 3ms ease-out 4s;
+    -webkit-transition: 3ms ease-out 4s;
+    -moz-transition: 3ms ease-out 4s;
+    -ms-transition: 3ms ease-out 4s;
+    -o-transition: 3ms ease-out 4s;
+    
+}
+.banner-content:hover{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: aquamarine;
+
+}
+.banner-content h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+    color: #333;
+}
+
+.banner-content p{margin: 10px 20px;
+    color:#666;
+
+}
+.banner-content button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    color:#333;
+    text-decoration: none;
+    font-weight: bold;
+    
+    transition:all 2s ease-in 3ms ;
+    -webkit-transition:all 2s ease-in 3ms ;
+    -moz-transition:all 2s ease-in 3ms ;
+    -ms-transition:all 2s ease-in 3ms ;
+    -o-transition:all 2s ease-in 3ms ;
+    
+}
+.banner-content button:hover{color:white;
+background-color: aqua;}
+/* style cards */
+.containier{
+position: relative;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+.card{
+    display: inline-block;
+    border: 3px solid #666;
+    margin-right: 35px;
+    width: 22%;
+    text-align: center;
+    padding: auto;
+    
+    
+}
+.card p{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+  
+
+
